@@ -1,0 +1,24 @@
+body {
+    padding: 30px;
+}
+#pagination {
+    list-style: none;
+}
+#pagination li {
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+tr > th, tr > td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+#pagination li.active a {
+    font-weight: 600;
+    color: #ddd;
+}
